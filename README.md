@@ -11,8 +11,8 @@ Based on https://github.com/Miczeq22/simple-chat-app
   openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365
   openssl rsa -in keytmp.pem -out key.pem
   ```
-3. `npm insall`
-4. `npm run start`
+3. `yarn`
+4. `yarn start`
 
 Your console should prting
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dogeller</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <button class="start">⏺</button>
+      <br /><br />
+      <video autoplay muted class="local-video" id="local-video"></video>
+      <pre>
+        Status <span id="status"></span>
+      </pre>
+      <hr />
+      <pre id="log"></pre>
+    </div>
+    <script src="./scripts/webcam.js"></script>
+  </body>
+</html>
